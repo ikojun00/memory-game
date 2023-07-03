@@ -7,7 +7,7 @@ const MemoryGame = () => {
   const [flippedCards, setFlippedCards] = useState([]);
   const [counter, setCounter] = useState(0);
   const [bestScore, setBestScore] = useState(
-    () => parseInt(localStorage.getItem('bestScore')) || Infinity
+    () => parseInt(localStorage.getItem('bestScore')) || 0
   );
 
   useEffect(() => {
