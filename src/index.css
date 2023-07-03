@@ -1,0 +1,18 @@
+.memory-game {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  font-size: 24px;
+  background-color: #eee;
+  cursor: pointer;
+}
