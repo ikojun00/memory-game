@@ -1,0 +1,2 @@
+.memory-game{align-items:flex-start;display:flex;flex-direction:column;margin:0 auto;width:50vw}.cards{display:flex;flex-direction:row;flex-wrap:wrap}.card{align-items:center;background-color:#eee;cursor:pointer;display:flex;font-size:5vw;height:10vw;justify-content:center;margin:5px;width:10vw}@media only screen and (max-width:768px){.card{font-size:5vh;height:10vh;width:10vh}}
+/*# sourceMappingURL=main.b62903e4.css.map*/
