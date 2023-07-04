@@ -23,3 +23,12 @@
   background-color: #eee;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+  .card
+  {
+    width: 10vh;
+    height: 10vh;
+    font-size: 5vh;
+  }
+}
