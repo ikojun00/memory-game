@@ -2,7 +2,10 @@ import React, { useState, useEffect } from 'react';
 import './index.css';
 
 const MemoryGame = () => {
-  const symbols = ['🐶', '🐱', '🐭', '🐹', '🐰', '🦊', '🐻', '🐼'];
+  const symbols = [
+    '🐶', '🐱', '🐭', '🐹', '🐰', '🦊', '🐻', '🐼',
+    '🐮', '🐯', '🐸', '🐵', '🦉', '🐴', '🐷'
+  ];
   const [cards, setCards] = useState([]);
   const [flippedCards, setFlippedCards] = useState([]);
   const [counter, setCounter] = useState(0);
@@ -38,8 +41,9 @@ const MemoryGame = () => {
   return (
     <div className="memory-game">
       <div className="score">
-        Current Score: {counter} | Best Score: {bestScore}
+        <h2>Current Score: {counter} | Best Score: {bestScore}</h2>
       </div>
+      <div className="cards">
       {cards.map((card, index) => (
         <div
           key={index}
@@ -49,6 +53,7 @@ const MemoryGame = () => {
           {card}
         </div>
       ))}
+      </div>
     </div>
   );
 };
